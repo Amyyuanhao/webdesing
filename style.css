@@ -191,3 +191,36 @@ li.dropdown {
   text-align: left;
   height: 200px;
 }
+
+.part.textbox{
+  height: 300px;
+}
+
+.part.textbox h1{
+  color: #e09132;
+}
+
+.part.textbox p{
+  color:#424530;
+  font-size: 20px;
+  text-align: left;
+}
+
+.part.programming{
+  height: 900px;
+}
+
+.part.programming .titles{
+  height: 200px;
+  font-size: 20px;
+  color: #e09132;
+  border-bottom: 2px solid #e09132;
+  padding: 5px 0;
+  width: 100%;
+}
+
+.part.programming .titles p{
+  font-size: 25px;
+  text-align: left;
+}
+
