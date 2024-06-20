@@ -250,3 +250,17 @@ li.dropdown {
   color: #424530;
 }
 
+.part.industry {
+  height: 600px;
+}
+
+.part.industry .up img{
+  height: 500px;
+  width: 800px;
+}
+
+.part.industry .down p{
+  font-size: 25px;
+  color:#424530;
+}
+
