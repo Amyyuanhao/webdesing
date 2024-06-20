@@ -264,3 +264,164 @@ li.dropdown {
   color:#424530;
 }
 
+.part.design-tips {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 20px; /* 定义网格单元之间的间距 */
+  margin: 20px; /* 为容器添加外边距 */
+  height: 1200px;
+}
+
+.part.design-tips .block {
+  padding: 10px; /* 为每个 block 添加内边距 */
+  border-radius: 8px; /* 为每个 block 添加圆角 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 为每个 block 添加阴影 */
+}
+
+.part.design-tips .block .up img {
+  width: 90%; /* 使图片宽度占满其容器 */
+  height: auto; /* 使图片高度自适应 */
+  border-radius: 8px 8px 0 0; /* 为图片的上边缘添加圆角 */
+}
+
+.part.design-tips .block .down {
+  padding: 10px; /* 为下方内容添加内边距 */
+  border-radius: 0 0 8px 8px; /* 为下方内容的下边缘添加圆角 */
+  text-align: center; /* 使内容居中 */
+}
+
+.part.design-tips .block .down p{
+  font-size: 25px;
+  color: #424530;
+}
+
+.part.contect-us {
+  display: grid; 
+  grid-template-columns: 1fr; 
+  grid-gap: 20px; /* 定义网格单元之间的间距 */
+  margin: 20px; /* 为容器添加外边距 */
+  height: 900px;
+}
+
+.part.contect-us .block {
+  padding: 10px; /* 为每个 block 添加内边距 */
+  border-radius: 8px; /* 为每个 block 添加圆角 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 为每个 block 添加阴影 */
+}
+
+.block.form {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  width: 50%;
+}
+
+.block.form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #424530;
+}
+
+.block.form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.block.form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  text-align: left;
+  color: #424530;
+
+}
+
+.block.form input,
+.block.form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.block.form button {
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 50px;
+  color: #424530;
+  background-color: #a58e74;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.block.form button:hover {
+  background-color: #d07f2b;
+}
+
+.part.contect-us .block.text {
+  color: #424530;
+}
+
+.part.contect-us .block.text p{
+  text-align: left;
+  padding-left: 10%;
+  font-size: 25px;
+}
+
+.part.history{
+  height: 900px;
+}
+
+.history-images {
+  display: flex; /* 使用 flex 布局 */
+  justify-content: space-between; /* 在两张图片之间均匀分配空间 */
+}
+
+.history-images img {
+  flex: 1; /* 使每张图片均匀分配可用空间 */
+  margin: 5px; /* 为每张图片添加一些间距 */
+  max-width: 48%; /* 确保图片不会超过容器宽度的一半，并防止它们在容器内挤压 */
+  height: auto; /* 保持图片比例 */
+  object-fit: contain; /* 确保图片覆盖整个框架 */
+  border-radius: 8px; /* 可选，为图片添加圆角 */
+}
+
+.part.history .content{
+  color:#e09132;
+  text-align: left;
+  height: 200px;
+}
+
+.part.history .content p{
+  color:#424530;
+  font-size: 25px; 
+}
+
+.team-images {
+  display: flex; /* 使用 flex 布局 */
+  justify-content: space-between; /* 在两张图片之间均匀分配空间 */
+}
+
+.team-images .block .up{
+  height: 320px;
+}
+
+.team-images img {
+  flex: 1; /* 使每张图片均匀分配可用空间 */
+  margin: 5px; /* 为每张图片添加一些间距 */
+  max-width: 48%; /* 确保图片不会超过容器宽度的一半，并防止它们在容器内挤压 */
+  height: auto; /* 保持图片比例 */
+  object-fit: contain; /* 确保图片覆盖整个框架 */
+  border-radius: 8px; /* 可选，为图片添加圆角 */
+}
+
+.team-images p{
+  font-size: 25px;
+  color:#424530;
+}
+
