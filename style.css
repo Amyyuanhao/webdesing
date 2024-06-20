@@ -224,3 +224,29 @@ li.dropdown {
   text-align: left;
 }
 
+.part.projects{
+  height: 400px;
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Distribute space evenly between images */
+}
+
+.part.projects .left{
+  width: 50%;
+  border-right: 2px solid white;
+}
+
+.part.projects .left img{
+  height: 350px;
+}
+
+.part.projects .right{
+  width: 50%;
+  text-align: left;
+  padding-left: 2%;
+}
+
+.part.projects .right p{
+  font-size: 25px;
+  color: #424530;
+}
+
